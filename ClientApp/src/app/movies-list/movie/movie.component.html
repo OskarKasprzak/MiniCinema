@@ -1,3 +1,10 @@
-<p>{{movie.id}}</p>
-<p>{{movie.title}}</p>
-<p>{{movie.description}}</p>
+<div class="row">
+  <div class="col col-lg-3">
+    <img [src]="movie.imageSource">
+  </div>
+  <div class="col col-lg-9">
+    <p>{{ movie.title}}</p>
+    <p> {{ movie.description }}</p>
+
+  </div>
+</div>
